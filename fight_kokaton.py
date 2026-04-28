@@ -176,6 +176,7 @@ class Explosion:
             else:
                 screen.blit(self.img[1], self.xy)
 
+
 def main():
     pg.display.set_caption("たたかえ！こうかとん")
     screen = pg.display.set_mode((WIDTH, HEIGHT))    
